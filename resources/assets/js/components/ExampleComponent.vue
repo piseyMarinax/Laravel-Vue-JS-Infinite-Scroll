@@ -43,10 +43,6 @@
                         vm.list.push(value);
                     });
 
-                    $state.loaded();
-                    console.log(data.current_page != data.last_page)
-
-
                     if(data.current_page != data.last_page)
                     {
                         $state.loaded();

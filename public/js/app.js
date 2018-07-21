@@ -48936,9 +48936,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                     vm.list.push(value);
                 });
 
-                $state.loaded();
-                console.log(data.current_page != data.last_page);
-
                 if (data.current_page != data.last_page) {
                     $state.loaded();
                 } else {
